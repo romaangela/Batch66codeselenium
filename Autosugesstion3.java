@@ -20,7 +20,7 @@ public static void main(String[] args) throws InterruptedException
         for(int i=0;i<5;i++) 
         {
         WebElement searchTextBox=        driver.findElement(By.id("twotabsearchtextbox"));
-        searchTextBox.sendKeys("shoes");
+        searchTextBox.sendKeys("Mobiles");
         Thread.sleep(3000);
 //get autosuggestion
         
